@@ -18,6 +18,6 @@ the logic works perfectly for:
 * the game function to play a game of 5 rounds and then decide who won in the end
 
 
-things to implement later:
+**things to implement later:**
 * UI
 * all the necessart html fields and buttons to actually play the game on a webpage

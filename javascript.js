@@ -56,10 +56,13 @@ const game = () =>{
     }
     
   }
-  if(userCount>=compCount){
+  if(userCount>compCount){
     return `User wins the game`;
   }
-  else {
+  else if(userCount === compCount){
+    return `It's a Draw!`
+  }
+  else{
     return `Computer wins the game`;
   }
   
