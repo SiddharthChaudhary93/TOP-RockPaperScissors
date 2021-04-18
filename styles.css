@@ -1,0 +1,119 @@
+body,html{
+    margin:0;
+    padding:0;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color:white;
+}
+
+html{
+    background: black
+}
+.title{
+    margin-top:50px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.container{
+    height:100vh;
+}
+
+.saveTheWorld{
+    transition:all 5s;
+    opacity:0;
+}
+
+.opaque{
+    opacity:1;
+}
+
+.result{
+    /* border:2px solid red; */
+    height:50px;
+    margin-top: 50px;
+}
+
+.options{
+    margin: 50px auto;
+    /* border:1px solid blue; */
+    text-align: center;
+    
+}
+
+.options > button{
+    padding:20px;
+    background-color: white;
+    outline: none;
+    font-size:60px;
+    font-weight: 600;
+    margin-left: 50px;
+    height:200px;
+    width: 200px;;
+    box-shadow: 0 0px 20px white;
+    border-radius: 50%;
+}
+
+.options > button:hover{
+    transform:scale(1.2);
+    transition :all 0.4s;
+}
+
+.initial{
+    opacity: 0;
+    display:none;
+    
+}
+.active{
+    opacity: 1;
+    transition:all 3s;
+    display: inline-block;
+}
+
+.result{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+
+
+.playerScore{
+    display:flex;
+    flex-direction: column;
+}
+.compScore{
+    display:flex;
+    flex-direction: column;
+}
+
+.final-result{
+    margin-top:80px;
+    
+    
+}
+.final-result:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+}
+
+
+.final-button{
+    margin-top:20px;
+    padding:20px;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: white;
+    box-shadow: 0 0 20px white;
+    outline: none;
+    border-radius: 5px;
+
+
+}
+.final-button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+

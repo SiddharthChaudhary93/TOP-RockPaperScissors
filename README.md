@@ -21,3 +21,4 @@ the logic works perfectly for:
 **things to implement later:**
 * UI
 * all the necessart html fields and buttons to actually play the game on a webpage
+
